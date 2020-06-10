@@ -1,5 +1,5 @@
-import User from '@/page/user';
-import Home from '@/page/home';
+import User from '@/page/user/index.vue';
+import Home from '@/page/home/index.vue';
 
 const routes = [
     { path: "/user", name: 'user', component: User },
